@@ -1,0 +1,64 @@
+main{
+    padding: 20px;
+}
+.cardscontainer{
+    background-color:rgb(230, 227, 227);
+    min-height: 200px;
+    
+    border-radius: 10px;
+
+    padding: 20px;
+    
+}
+.cardscontainer>*{
+    margin-bottom: 20px;
+}
+.card{
+    background-color: rgb(97, 97, 245);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.question{
+    background-color:rgb(42, 42, 219);
+    min-height:40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    padding: 10px;
+    color:white;
+}
+.options{
+    background-color: rgb(230, 180, 72);
+    min-height: 100px;
+    border-radius: 20px;
+
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit,30rem);
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+    padding: 20px 10px;
+}
+.question::before{
+    content: "Q.";
+}
+.flex{
+    padding-left:10px;display: flex;align-items: center;
+}
+.options>*{
+    background-color: rgb(65, 24, 179);
+    border-radius: 5px;
+    cursor: pointer;
+    min-height: 50px;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sample{
+    display: none;
+}

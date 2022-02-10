@@ -1,0 +1,56 @@
+[
+    {
+        "Question":"What is Javascript?",
+        "Option":["JavaScript is a scripting language used to make the website interactive",
+            "JavaScript is an assembly language used to make the website interactive",
+            "JavaScript is a compiled language used to make the website interactive",
+            "None of the mentioned"
+        ],
+        "Answer":
+        "a",
+        "Explanation":
+        "JavaScript is a scripting language used along with HTML and CSS to make the website interactive along. It is used both on the client-side and server-side."
+        
+        
+    },
+    {
+        "Question":"Which of the following is correct about JavaScript?",
+        "Option":[
+            "JavaScript is an Object-Based language",
+            "JavaScript is Assembly-language",
+            "JavaScript is an Object-Oriented language",
+            "JavaScript is a High-level language"
+        ],
+        "Answer": "a",
+        "Explanation": "Although JavaScript is not an OOP (Object-Oriented Programming) language like Java or PHP, it is an object-oriented language. The standard threesome of polymorphism, encapsulation, and inheritance are the criteria for object orientation, and JavaScript fails to meet them."
+    },  
+    {
+        "Question":"Among the given statements, which statement defines closures in JavaScript?",
+        "Option":[
+
+            "is a function that is enclosed with references to its inner function scope",
+            "is a function that is enclosed with references to its lexical environment",
+            "is a function that is enclosed with the object to its inner function scope",
+            "None of the mentioned"
+        ],
+        "Answer": "b",
+        "Explanation": "A closure is a function that is enclosed with references to its lexical environment. A closure allows an inner function to access the scope of an outside function. Closures are formed every time a function is created in JavaScript, during function creation"
+    },
+    {
+        "Question":"What will be the output of the following JavaScript code snippet?",
+        "Snippet":["<p id='demo'></p>",
+        "var txt1 = 'Sanfoundry_';",
+        "var txt2 = 'Javascriptmcq';",
+        "document.getElementById('demo').innerHTML = txt1 + txt2;"],
+        "Option":[
+            "error",
+            "Sanfoundry_ Javascriptmcq",
+            "undefined",
+            "Sanfoundry_Javascriptmcq"
+        ]
+        ,
+        "Answer": "d",
+        "Explanation": "The + operator in javascript acts as a concatenation operator when used with string. The new string does not have any space between the two added strings."
+    }
+    
+]

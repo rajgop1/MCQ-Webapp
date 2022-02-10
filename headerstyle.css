@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background: linear-gradient(rgb(243, 128, 107),rgb(139, 63, 63)) fixed;
+    /* background-repeat: no-repeat; */
+    
+}
+Header{
+    height:40px;
+    color:white;
+    background-color: rgb(73, 69, 69);
+    position: fixed;
+    top:0;
+}
+.logo{
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.left>*{
+    padding: 10px;
+}
+.right{
+    padding: 10px 20px;
+}
